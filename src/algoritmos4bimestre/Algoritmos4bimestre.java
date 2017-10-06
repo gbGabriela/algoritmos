@@ -1,21 +1,33 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package algoritmos4bimestre;
 
-/**
- *
- * @author Gabi
- */
 public class Algoritmos4bimestre {
-
-    /**
-     * @param args the command line arguments
-     */
+    
+    public static void quadrado(double n){
+    
+        double r = n * n;
+        
+    }
+    
+    public static double metade(double v){
+        
+        double r = v / 2;
+        return r;
+        
+    }
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        //Calculando a raiz quadrada
+        double raiz;
+        raiz =  Math.sqrt(15);
+        
+        System.out.println("A raiz quadrade de 15 é: "+raiz);
+        
+        Algoritmos4bimestre.quadrado(15);
+        
+        double result;
+        result = metade(15);
+        
     }
     
 }
